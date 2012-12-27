@@ -28,6 +28,9 @@ body {
 <script type="text/javascript">
 window.onload = function() {
 
+  myShakeEvent = new Shake();
+  myShakeEvent.start();
+
 	window.addEventListener('shake', shakeEventDidOccur, false);
 	
 	//define a custom method to fire when shake occurs.
