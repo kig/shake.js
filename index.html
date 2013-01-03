@@ -14,7 +14,7 @@ body {
 	text-align: center;
 }
 </style>
-<script type="text/javascript" src="shake.js"></script>
+<script type="text/javascript" src="build/build.js"></script>
 </head>
 <body>
 
@@ -26,6 +26,7 @@ body {
 <p><a href="http://dev.w3.org/geo/api/spec-source-orientation">W3C DeviceOrientation Event Specification</a></p>
 
 <script type="text/javascript">
+var Shake = require( 'shake' );
 window.onload = function() {
 
   myShakeEvent = new Shake();

@@ -8,6 +8,12 @@
  *
  */
 
+/**
+ * Expose `Shake`
+ */
+
+module.exports = Shake;
+
 function Shake(threshold, minTimeDifference) {
 
   //feature detect

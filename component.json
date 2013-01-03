@@ -1,0 +1,14 @@
+{
+  "name": "shake",
+  "repo": "mnmly/shake.js",
+  "description": "A custom 'shake' event JavaScript plugin for mobile web browsers using device accelerometer.",
+  "version": "0.0.1",
+  "main": "shake.js",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "shake.js"
+  ]
+}
